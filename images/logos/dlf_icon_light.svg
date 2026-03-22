@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Frame + QED Logo — Light version — Icon only -->
+  <!-- Deep Learning Fundamentals Lab · Tomer Galanti · Texas A&M -->
+  <g transform="translate(100,100)">
+    <!-- Corner brackets (matrix notation / theory) -->
+    <path d="M-42,-42 L-42,-28" fill="none" stroke="#1a1a1a" stroke-width="4" stroke-linecap="round" opacity=".28"/>
+    <path d="M-42,-42 L-28,-42" fill="none" stroke="#1a1a1a" stroke-width="4" stroke-linecap="round" opacity=".28"/>
+    <path d="M42,-42 L42,-28" fill="none" stroke="#1a1a1a" stroke-width="4" stroke-linecap="round" opacity=".28"/>
+    <path d="M42,-42 L28,-42" fill="none" stroke="#1a1a1a" stroke-width="4" stroke-linecap="round" opacity=".28"/>
+    <path d="M-42,42 L-42,28" fill="none" stroke="#1a1a1a" stroke-width="4" stroke-linecap="round" opacity=".28"/>
+    <path d="M-42,42 L-28,42" fill="none" stroke="#1a1a1a" stroke-width="4" stroke-linecap="round" opacity=".28"/>
+    <path d="M42,42 L42,28" fill="none" stroke="#1a1a1a" stroke-width="4" stroke-linecap="round" opacity=".28"/>
+    <path d="M42,42 L28,42" fill="none" stroke="#1a1a1a" stroke-width="4" stroke-linecap="round" opacity=".28"/>
+    <!-- QED square (proof / theory) -->
+    <rect x="-20" y="-18" width="22" height="22" rx="3" fill="#1a1a1a" opacity=".18"/>
+    <!-- Model node (practice) -->
+    <circle cx="16" cy="8" r="14" fill="#D85A30"/>
+  </g>
+</svg>

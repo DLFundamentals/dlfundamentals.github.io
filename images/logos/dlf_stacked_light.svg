@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 200" width="280" height="200">
+  <!-- Frame + QED Logo — Light — Stacked -->
+  <g transform="translate(140,72)">
+    <path d="M-32,-32 L-32,-22" fill="none" stroke="#1a1a1a" stroke-width="3.5" stroke-linecap="round" opacity=".28"/>
+    <path d="M-32,-32 L-22,-32" fill="none" stroke="#1a1a1a" stroke-width="3.5" stroke-linecap="round" opacity=".28"/>
+    <path d="M32,-32 L32,-22" fill="none" stroke="#1a1a1a" stroke-width="3.5" stroke-linecap="round" opacity=".28"/>
+    <path d="M32,-32 L22,-32" fill="none" stroke="#1a1a1a" stroke-width="3.5" stroke-linecap="round" opacity=".28"/>
+    <path d="M-32,32 L-32,22" fill="none" stroke="#1a1a1a" stroke-width="3.5" stroke-linecap="round" opacity=".28"/>
+    <path d="M-32,32 L-22,32" fill="none" stroke="#1a1a1a" stroke-width="3.5" stroke-linecap="round" opacity=".28"/>
+    <path d="M32,32 L32,22" fill="none" stroke="#1a1a1a" stroke-width="3.5" stroke-linecap="round" opacity=".28"/>
+    <path d="M32,32 L22,32" fill="none" stroke="#1a1a1a" stroke-width="3.5" stroke-linecap="round" opacity=".28"/>
+    <rect x="-16" y="-14" width="18" height="18" rx="2.5" fill="#1a1a1a" opacity=".18"/>
+    <circle cx="14" cy="6" r="12" fill="#D85A30"/>
+  </g>
+  <text x="140" y="134" text-anchor="middle" font-family="-apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700" fill="#1a1a1a" letter-spacing="5">DLF</text>
+  <text x="140" y="156" text-anchor="middle" font-family="-apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#1a1a1a" opacity=".4" letter-spacing="2.5">DEEP LEARNING FUNDAMENTALS</text>
+  <text x="140" y="174" text-anchor="middle" font-family="-apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="9" fill="#1a1a1a" opacity=".25" letter-spacing="2">TEXAS A&amp;M UNIVERSITY</text>
+</svg>
