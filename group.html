@@ -85,6 +85,24 @@
     .avatar-wrap { position: relative; width: 100px; height: 100px; margin: 0 auto .75rem; }
     .avatar { width: 100px; height: 100px; border-radius: 50%; object-fit: cover; border: 1px solid var(--border); display: block; transition: border-color .2s; }
     .person:hover .avatar { border-color: var(--accent2); }
+    .avatar-fallback {
+      width: 100px; height: 100px;
+      border-radius: 50%;
+      border: 1px solid var(--border);
+      background: var(--accent-gold-light);
+      color: var(--accent-gold);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--serif);
+      font-size: 1.6rem;
+      font-weight: 500;
+      transition: border-color .2s, color .2s;
+    }
+    .person:hover .avatar-fallback {
+      border-color: var(--accent2);
+      color: var(--accent2);
+    }
     .person-name { font-size: .88rem; font-weight: 500; margin-bottom: .15rem; }
     .person-name a { color: var(--text); }
     .person-name a:hover { color: var(--link); text-decoration: none; }
@@ -181,11 +199,6 @@
           <div class="person-role">PhD student</div>
         </article>
         <article class="person">
-          <div class="avatar-wrap"><img class="avatar" src="student_images/deepak.jpg" alt="Deepak Suresh" loading="lazy" /></div>
-          <div class="person-name"><a href="https://www.linkedin.com/in/deepaksuresh15/">Deepak Suresh</a></div>
-          <div class="person-role">Master's student</div>
-        </article>
-        <article class="person">
           <div class="avatar-wrap"><img class="avatar" src="student_images/rahul.jpg" alt="Rahul Pillalamarri" loading="lazy" /></div>
           <div class="person-name"><a href="https://www.linkedin.com/in/rahul-pillalamarri/">Rahul Pillalamarri</a></div>
           <div class="person-role">Master's student</div>
@@ -201,18 +214,18 @@
           <div class="person-role">Master's student</div>
         </article>
         <article class="person">
-          <div class="avatar-wrap"><img class="avatar" src="student_images/aarya.jpg" alt="Aarya Bookseller" loading="lazy" /></div>
-          <div class="person-name"><a href="https://www.linkedin.com/in/aarya-bookseller-b6a8531b7/">Aarya Bookseller</a></div>
-          <div class="person-role">Undergraduate</div>
-        </article>
-        <article class="person">
           <div class="avatar-wrap"><img class="avatar" src="student_images/priya.jpg" alt="Priyadarsi Mishra" loading="lazy" /></div>
           <div class="person-name"><a href="https://www.linkedin.com/in/priyadarsi-mishra/">Priyadarsi Mishra</a></div>
           <div class="person-role">Undergraduate</div>
         </article>
         <article class="person">
-          <div class="avatar-wrap"><img class="avatar" src="student_images/nishit.jpeg" alt="Nishit Aggarwal" loading="lazy" /></div>
-          <div class="person-name"><a href="https://www.linkedin.com/in/nishit-a-7b62352a6/">Nishit Aggarwal</a></div>
+          <div class="avatar-wrap"><div class="avatar-fallback" aria-label="Lucas Bryant">LB</div></div>
+          <div class="person-name">Lucas Bryant</div>
+          <div class="person-role">Master's student</div>
+        </article>
+        <article class="person">
+          <div class="avatar-wrap"><div class="avatar-fallback" aria-label="Varun Sunkaraneni">VS</div></div>
+          <div class="person-name">Varun Sunkaraneni</div>
           <div class="person-role">Undergraduate</div>
         </article>
       </div>
@@ -229,6 +242,21 @@
         <article class="person">
           <div class="avatar-wrap"><img class="avatar" src="student_images/ajay.jpg" alt="Ajay Jagannath" loading="lazy" /></div>
           <div class="person-name"><a href="https://www.linkedin.com/in/ajayjagan2511/">Ajay Jagannath</a></div>
+          <div class="person-role">Alumnus</div>
+        </article>
+        <article class="person">
+          <div class="avatar-wrap"><img class="avatar" src="student_images/deepak.jpg" alt="Deepak Suresh" loading="lazy" /></div>
+          <div class="person-name"><a href="https://www.linkedin.com/in/deepaksuresh15/">Deepak Suresh</a></div>
+          <div class="person-role">Alumnus</div>
+        </article>
+        <article class="person">
+          <div class="avatar-wrap"><img class="avatar" src="student_images/aarya.jpg" alt="Aarya Bookseller" loading="lazy" /></div>
+          <div class="person-name"><a href="https://www.linkedin.com/in/aarya-bookseller-b6a8531b7/">Aarya Bookseller</a></div>
+          <div class="person-role">Alumna</div>
+        </article>
+        <article class="person">
+          <div class="avatar-wrap"><img class="avatar" src="student_images/nishit.jpeg" alt="Nishit Aggarwal" loading="lazy" /></div>
+          <div class="person-name"><a href="https://www.linkedin.com/in/nishit-a-7b62352a6/">Nishit Aggarwal</a></div>
           <div class="person-role">Alumnus</div>
         </article>
       </div>
