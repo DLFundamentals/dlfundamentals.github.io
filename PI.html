@@ -42,15 +42,6 @@
     .header-inner { max-width: 860px; margin: 0 auto; padding: 0 1.5rem; display: flex; align-items: center; justify-content: space-between; height: 100%; }
     .brand { display: flex; align-items: center; gap: .7rem; text-decoration: none; color: var(--text); }
     .brand:hover { text-decoration: none; }
-    .brand-logo { width: 34px; height: 34px; flex-shrink: 0; }
-    .brand-logo .logo-light { display: block; }
-    .brand-logo .logo-dark { display: none; }
-    [data-theme="dark"] .brand-logo .logo-light { display: none; }
-    [data-theme="dark"] .brand-logo .logo-dark { display: block; }
-    @media (prefers-color-scheme: dark) {
-      :root:not([data-theme="light"]) .brand-logo .logo-light { display: none; }
-      :root:not([data-theme="light"]) .brand-logo .logo-dark { display: block; }
-    }
     .brand-text { font-weight: 600; font-size: 14px; letter-spacing: .2px; }
     nav { display: flex; align-items: center; gap: .15rem; }
     nav a { padding: .35rem .6rem; border-radius: 7px; font-size: 13.5px; font-weight: 500; color: var(--text-secondary); transition: all .15s; }
@@ -94,10 +85,6 @@
   <header>
     <div class="header-inner">
       <a href="/index.html" class="brand">
-        <div class="brand-logo">
-          <svg class="logo-light" viewBox="0 0 200 200" width="34" height="34" xmlns="http://www.w3.org/2000/svg"><g transform="translate(100,100)"><path d="M-42,-42 L-42,-28" fill="none" stroke="#1a1a1a" stroke-width="4" stroke-linecap="round" opacity=".28"/><path d="M-42,-42 L-28,-42" fill="none" stroke="#1a1a1a" stroke-width="4" stroke-linecap="round" opacity=".28"/><path d="M42,-42 L42,-28" fill="none" stroke="#1a1a1a" stroke-width="4" stroke-linecap="round" opacity=".28"/><path d="M42,-42 L28,-42" fill="none" stroke="#1a1a1a" stroke-width="4" stroke-linecap="round" opacity=".28"/><path d="M-42,42 L-42,28" fill="none" stroke="#1a1a1a" stroke-width="4" stroke-linecap="round" opacity=".28"/><path d="M-42,42 L-28,42" fill="none" stroke="#1a1a1a" stroke-width="4" stroke-linecap="round" opacity=".28"/><path d="M42,42 L42,28" fill="none" stroke="#1a1a1a" stroke-width="4" stroke-linecap="round" opacity=".28"/><path d="M42,42 L28,42" fill="none" stroke="#1a1a1a" stroke-width="4" stroke-linecap="round" opacity=".28"/><rect x="-20" y="-18" width="22" height="22" rx="3" fill="#1a1a1a" opacity=".18"/><circle cx="16" cy="8" r="14" fill="#D85A30"/></g></svg>
-          <svg class="logo-dark" viewBox="0 0 200 200" width="34" height="34" xmlns="http://www.w3.org/2000/svg"><g transform="translate(100,100)"><path d="M-42,-42 L-42,-28" fill="none" stroke="#e0e0e0" stroke-width="4" stroke-linecap="round" opacity=".28"/><path d="M-42,-42 L-28,-42" fill="none" stroke="#e0e0e0" stroke-width="4" stroke-linecap="round" opacity=".28"/><path d="M42,-42 L42,-28" fill="none" stroke="#e0e0e0" stroke-width="4" stroke-linecap="round" opacity=".28"/><path d="M42,-42 L28,-42" fill="none" stroke="#e0e0e0" stroke-width="4" stroke-linecap="round" opacity=".28"/><path d="M-42,42 L-42,28" fill="none" stroke="#e0e0e0" stroke-width="4" stroke-linecap="round" opacity=".28"/><path d="M-42,42 L-28,42" fill="none" stroke="#e0e0e0" stroke-width="4" stroke-linecap="round" opacity=".28"/><path d="M42,42 L42,28" fill="none" stroke="#e0e0e0" stroke-width="4" stroke-linecap="round" opacity=".28"/><path d="M42,42 L28,42" fill="none" stroke="#e0e0e0" stroke-width="4" stroke-linecap="round" opacity=".28"/><rect x="-20" y="-18" width="22" height="22" rx="3" fill="#e0e0e0" opacity=".18"/><circle cx="16" cy="8" r="14" fill="#D85A30"/></g></svg>
-        </div>
         <span class="brand-text">Deep Learning Fundamentals</span>
       </a>
       <button class="hamburger" id="menuBtn" aria-label="Toggle menu" aria-expanded="false">

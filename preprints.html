@@ -51,7 +51,6 @@
     header { position: sticky; top: 0; z-index: 50; backdrop-filter: blur(6px); background: color-mix(in srgb, var(--bg) 80%, transparent); border-bottom:1px solid var(--border); }
     .nav { display:flex; align-items:center; justify-content:space-between; padding:.6rem 0; }
     .brand { display:flex; align-items:center; gap:.75rem; font-weight:800; letter-spacing:.2px; }
-    .brand .logo { width:40px; height:40px; border-radius:50%; border:1px solid var(--border); object-fit:cover; }
     .menu { display:flex; gap:.8rem; align-items:center; }
     .menu a { padding:.4rem .6rem; border-radius:8px; }
     .menu a.active { background: var(--card); border:1px solid var(--border); }
@@ -87,7 +86,6 @@
   <header>
     <div class="container nav">
       <div class="brand">
-        <img class="logo" src="/images/logo.png" alt="Lab emblem" />
         <span>Deep Learning Fundamentals Lab</span>
       </div>
       <button class="hamburger" id="menuBtn" aria-label="Toggle menu" aria-expanded="false">
